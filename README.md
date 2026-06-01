@@ -41,7 +41,7 @@ A typical 30-step run that previously burned 400K+ tokens fits in **~70–100K**
 ### Via skills.sh CLI (recommended — works for Claude Code, Cursor, Codex, Copilot, Gemini, Cline, etc.)
 
 ```bash
-npx skills add cacaoapps/e2e-test-plan-skill
+npx skills add cacaoapps/e2e-test-plan
 ```
 
 The `skills` CLI ([vercel-labs/skills](https://github.com/vercel-labs/skills)) detects your agent and drops the skill in the right place.
@@ -49,13 +49,13 @@ The `skills` CLI ([vercel-labs/skills](https://github.com/vercel-labs/skills)) d
 ### Manual install (Claude Code, plain git)
 
 ```bash
-git clone https://github.com/cacaoapps/e2e-test-plan-skill ~/.claude/skills/e2e-test-plan
+git clone https://github.com/cacaoapps/e2e-test-plan ~/.claude/skills/e2e-test-plan
 ```
 
 Or, for a single-user install via symlink:
 
 ```bash
-git clone https://github.com/cacaoapps/e2e-test-plan-skill /path/to/wherever
+git clone https://github.com/cacaoapps/e2e-test-plan /path/to/wherever
 ln -s /path/to/wherever ~/.claude/skills/e2e-test-plan
 ```
 
